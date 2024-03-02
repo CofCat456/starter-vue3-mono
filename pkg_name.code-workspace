@@ -1,0 +1,18 @@
+{
+  "folders": [
+    {
+      "path": "packages/pkg-name",
+      "name": "pkg-name",
+    },
+    {
+      "path": "./playground",
+      "name": "playground",
+    },
+    {
+      "path": "./",
+      "name": "root",
+    }
+  ],
+  "settings": {
+  }
+}
