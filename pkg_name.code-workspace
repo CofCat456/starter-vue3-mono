@@ -5,6 +5,10 @@
       "name": "pkg-name-vue",
     },
     {
+      "path": "packages/pkg-name",
+      "name": "pkg-name",
+    },
+    {
       "path": "./playground",
       "name": "playground",
     },
