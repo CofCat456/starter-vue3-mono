@@ -1,0 +1,38 @@
+{
+  "name": "pkg-name-vue",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "description": "A Monorepo package",
+  "author": "CofCat <a25690756@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/CofCat456/repo-name/tree/main/packages/pkg-name#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CofCat456/repo-name"
+  },
+  "bugs": {
+    "url": "https://github.com/CofCat456/repo-name/issues"
+  },
+  "keywords": [],
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.2",
+    "@types/jsdom": "^21.1.6",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vue/tsconfig": "^0.5.1",
+    "jsdom": "^24.0.0",
+    "npm-run-all2": "^6.1.2",
+    "typescript": "^5.3.3",
+    "vite": "^5.1.4",
+    "vitest": "^1.3.1",
+    "vue-tsc": "^2.0.2"
+  }
+}

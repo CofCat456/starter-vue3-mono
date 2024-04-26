@@ -1,8 +1,8 @@
 {
   "folders": [
     {
-      "path": "packages/pkg-name",
-      "name": "pkg-name",
+      "path": "packages/pkg-name-vue",
+      "name": "pkg-name-vue",
     },
     {
       "path": "./playground",

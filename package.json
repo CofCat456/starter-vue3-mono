@@ -4,27 +4,28 @@
   "private": true,
   "packageManager": "pnpm@9.0.6",
   "scripts": {
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs",
     "test": "vitest",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "build": "rimraf packages/*/dist --glob && pnpm -r --filter=./packages/* run build",
     "review": "npx changelogithub --dry",
-    "release": "bumpp -r"
-  },
-  "dependencies": {
-    "bumpp": "^9.3.0"
+    "release": "bumpp -r",
+    "prepare": "simple-git-hooks",
+    "play": "npm -C playground run dev",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.6.4",
     "@vue/test-utils": "^2.4.4",
+    "bumpp": "^9.3.0",
     "eslint": "^8.57.0",
     "jsdom": "^24.0.0",
     "lint-staged": "^15.2.2",
     "rimraf": "^5.0.5",
     "simple-git-hooks": "^2.9.0",
+    "tsup": "^8.0.2",
     "typescript": "^5.3.3",
     "vitepress": "1.0.0-beta.7",
     "vitest": "^1.3.1"
